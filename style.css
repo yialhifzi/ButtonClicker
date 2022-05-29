@@ -42,7 +42,7 @@ body {
 .btn {
     height: 35px;
     width: 100px;
-    background-color: #10cbe7;
+    background-color: dodgerblue;
     color: #ffffff;
     border: none;
     font-size: 16px;
@@ -58,7 +58,6 @@ body {
     border: none;
     font-size: 16px;
     box-shadow: 4px 4px #000000;
-    margin-right: 20px;
 }
 
 .btn3 {
@@ -81,7 +80,8 @@ body {
     display: flex;
 }
 
-.col, .col-2 {
+.col,
+.col-2 {
     margin: 10px;
     padding: 10px;
     flex: 1;
@@ -100,6 +100,23 @@ body {
     border-radius: 5px;
     font-size: 1.2rem;
     overflow: hidden;
+    display: flex;
+}
+
+.card2 {
+    width: 100%;
+    background-color: #fff;
+    border: 2px solid #999;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    overflow: hidden;
+}
+
+.definition {
+    font-size: xx-large;
+    margin-left: 10%;
+    margin-top: 10%;
 }
 
 
@@ -107,7 +124,7 @@ body {
     padding: 20px;
 }
 
-.card-body h1, 
+.card-body h1,
 .card-body h2,
 .card-body h3,
 .card-body p {
@@ -129,6 +146,12 @@ body {
     font-size: 48px;
     display: flex;
     align-items: center;
+}
+
+.header3 {
+    padding: 10px;
+    color: #000000;
+    font-size: 24px;
 }
 
 
